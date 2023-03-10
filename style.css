@@ -1,0 +1,23 @@
+body{
+    width: 35em;
+    height: 10em;
+    background-color: #f9dcb8;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #140e65;
+    
+}
+
+#list{
+font-style: italic;
+font-size: 2em;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+padding-top: 0.35em;
+padding-bottom: 0.25em;
+overflow-x:auto;
+color: #140e65;
+}

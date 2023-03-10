@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Word definition and synonymn",
+    "version": "0.1",
+    "action": {
+        "default_title": "Word definition and synonymn",
+        "default_popup": "popup.html"
+    },
+    "description": "will show the definition and synonymns of a selected word",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": {
+        "16": "dic icon.png",
+        "32": "dic icon.png",
+        "48": "dic icon.png",
+        "128": "dic icon.png"
+      },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
